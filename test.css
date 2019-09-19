@@ -1,0 +1,96 @@
+@import  url('http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+body{
+	font-family: Roboto;
+
+	
+}
+
+
+.form-container
+{
+	display: flex;
+	justify-content: center;
+	
+}
+ .form
+ {
+ 	width: 481px;
+ 	height: 392px;
+ 	background: #F7F5F9;
+	border-radius: 12px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+	
+	
+ }
+ .block
+ {
+ 	display: flex;
+	justify-content: center;
+
+ }
+ input,button{
+ 	width: 401px;
+	height: 48px;
+	border-radius: 6px;
+	font-family: Roboto, sans-serif;
+	
+	
+ }
+
+input{
+	margin-bottom: 25px;
+	padding: 14px 35.12px 14px 15px;
+	box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+	background: #FFFFFF;
+	border: none;
+
+}
+ h2{
+ 	font-family: Roboto;
+ margin: 40px 0px 25px 40px;
+ font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 20px;
+color: #3B3D43;
+
+ }
+
+ button{
+ 	background: #6979F8;
+ 	color: #FFFFFF;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 22px;
+text-align: center;
+border: none;
+ }
+
+ ::-webkit-input-placeholder {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+color: #D0C9D6;
+
+ }
+ input:focus {
+ 	border: 1px solid #854FC8;
+
+ }
+ input:hover {
+ 	border: 1px solid #854FC8;
+
+ }
+
+ button:hover{
+ 	border: 2px solid #191970;
+ }
+ button:active{
+ 	background:  #191970;
+ }
